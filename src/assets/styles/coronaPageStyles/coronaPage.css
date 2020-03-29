@@ -1,0 +1,52 @@
+
+.divContainer {
+    flex:1;
+    width: 400px;
+    background-color: red;
+}
+
+.buttonCountry {
+    align-items: end;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        width: 15rem;
+        height: 15rem;
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.Corona-card-wrapper{
+    margin-top: 5rem;
+}
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.App-background {
+    background-color: #282c34;
+    min-height: 100vh;
+}
+
+.Card-Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+    height: 18rem;
+}
